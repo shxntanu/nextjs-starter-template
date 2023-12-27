@@ -1,5 +1,5 @@
 import axios from "axios";
-import { getItem } from "@/config/utils/localStorageControl";
+import { getItem } from "@/utility/localStorageControl";
 
 const authHeader = () => ({
     Authorization: `Bearer ${getItem("authToken")}`,
